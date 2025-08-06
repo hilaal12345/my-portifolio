@@ -7,6 +7,8 @@ import img1 from '../images/p3.png'
 
 import ProjectStyle from "./projectStyle"
 function Section2(){
+
+          // disktop
          
           return <>
           <div className="flex mt-20 px-10 justify-between"> 
@@ -53,6 +55,8 @@ function Section2(){
 
 
           </div>
+          {/* mobile */}
+          
           
           </>
 }

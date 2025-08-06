@@ -88,7 +88,7 @@ function Footer(){
 
 
 
-          <div className='bg-blue-950 h-[500px] f-full py-16 px-10  '>
+          <div className='bg-[#070021]  h-[500px] f-full py-16 px-10  '>
                     <div className='flex justify-between '>
                     <div className='w-[300px] text-white  '>
                              <p className='text-3xl font-semibold'>About Us</p>
@@ -171,7 +171,7 @@ function Footer(){
           <div className='mt-20'> <hr /></div>
 
           <div className='text-center mt-4 '>
-                    <img className='w-[220px] h-[100px] ml-[640px]' src={img1} alt="" />
+                    <img className='w-[100px] h-[50px] ml-[600px]' src={img1} alt="" />
                     <p className='text-white '>coppyright.2025 All Reversed</p>
           </div>
           
@@ -203,7 +203,7 @@ function Footer(){
 
           <div className='mt-10'>
                     <button className='bg-white px-8 py-3'>Enter your Email</button>
-                    <button className='bg-orange-600 text-white px-6 py-3 font-semibold'>Subscribe</button>
+                    <button className='bg-[#070021] text-white px-6 py-3 font-semibold'>Subscribe</button>
           </div> 
 
           </div>

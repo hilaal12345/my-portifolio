@@ -1,7 +1,7 @@
 function Seminars(){
           //desktop
           return <>
-          <h1 className="text-6xl text-[#070021] font-semibold text-center mt-20">Seminars</h1>
+          <h1 className="text-6xl text-white font-semibold text-center mt-20">Seminars</h1>
           <div  className="sm:flex hidden justify-center px-16 mt-16">
                     <div className='w-[400px]'>
                              
