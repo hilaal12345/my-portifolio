@@ -44,17 +44,17 @@ function Header(){
 
           <h1 className="text-3xl text-white font-semibold mt-5">Hiba</h1>
 
-                     <i onClick={handleIsOpen} class="fa-solid fa-bars text-white mt-5 text-3xl"></i>
+                     <i onClick={handleIsOpen} class="fa-solid fa-bars text-white mt-5 text-3xl hover:text-wh-500 duration-500 shadow-lg hover:shadow-white"></i>
           </div>
            <div style={{display:isOpen===true? "block":" "}} onClick={handleIsOpen} className=" hidden">
 
-                    <ul className="bg- bg-[#070021] text-white space-x-10 text-2xl text-center   mt-5">
+                    <ul className="bg- bg-[#070021] text-white space-x-10 text-2xl text-center   mt-5 ">
                               
-                                <Link to={"/"}><li>Home <i class="fa-solid fa-chevron-down">  </i> </li></Link>
-                                {/* <li>Home <i class="fa-solid fa-chevron-down">  </i> </li> */}
-                    <Link to={"/About"}><li>About <i class="fa-solid fa-chevron-down">  </i> </li></Link>
+                                <Link to={"/"}><li className=" hover:bg-blue-400 px-10 py-4">Home <i class="fa-solid fa-chevron-down ">  </i> </li></Link>
+                                {/* <li>Home <i class="fa-solid fa-chevron-down hover:bg-blue-600 px-10 py-4 ">  </i> </li> */}
+                    <Link to={"/About"}><li className=" hover:bg-blue-400 px-10 py-4">About <i class="fa-solid fa-chevron-down  ">  </i> </li></Link>
 
-                             <Link to={"/contact"}><li>Contact <i class="fa-solid fa-chevron-down">  </i> </li></Link>
+                             <Link to={"/contact"}><li className=" hover:bg-blue-400 px-10 py-4">Contact <i class="fa-solid fa-chevron-down ">  </i> </li></Link>
                     </ul>
 
 

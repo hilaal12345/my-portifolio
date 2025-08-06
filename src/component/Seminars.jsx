@@ -22,7 +22,7 @@ function Seminars(){
           </div>
 
           {/* mobile */}
-          <div className=" sm:hidden px-16 mt-16">
+          <div className=" sm:hidden px-12 mt-16">
                     <div className='w-[400px]'>
                              
                               <p className='text-2xl font-semibold text-blue-500'>How doy present you skill</p>

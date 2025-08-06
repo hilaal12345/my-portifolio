@@ -18,8 +18,8 @@ function Herro(){
                                            maiores facilis deserunt dolore eaque eos magnam!</p>
                     <div className='space-y-10  space-x-10'>
   
-                  <Link to={"/GraphicDesigner"}>  <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg'> Veiw Work  </button></Link>
-                    <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg'>Hire Me </button>
+                  <Link to={"/GraphicDesigner"}>  <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg  hover:bg-[#a8a8ff] duration-500'> Veiw Work  </button></Link>
+                    <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg  hover:bg-[#a8a8ff] duration-500'>Hire Me </button>
                     </div>
   
           </div>
@@ -43,8 +43,8 @@ function Herro(){
                                            maiores facilis deserunt dolore eaque eos magnam!</p>
                     <div className='space-y-10  space-x-10'>
   
-                  <Link to={"/GraphicDesigner"}>  <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg'> Veiw Work  </button></Link>
-                    <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg'>Hire Me </button>
+                  <Link to={"/GraphicDesigner"}>  <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-[#a8a8ff] duration-500 shadow-lg hover:shadow-white'> Veiw Work  </button></Link>
+                    <button className='px-10 py-3 bg-blue-600 text-white font-semibold rounded-lg  hover:bg-[#a8a8ff] duration-500 shadow-lg hover:shadow-white'>Hire Me </button>
                     </div>
   
           </div>
